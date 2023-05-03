@@ -4,50 +4,54 @@
 
 # Introduction.
 In order to use this model you need to create the environment on you computer.This is a Keras easy type data for beginners of Computer Vision.
-Data consists of 10 different types of images in both train and test data.Each type has 5000 images of total 50,000 32x32 pixel images in train data .Another 10,000 in test data.I used CNN model.  
+Data consists of 10 different types of images in both train and test data.Each type has around 5000 images of total 60,000 28x28 pixel images in train data .Another 10,000 in test data.I used CNN model.  
 
 
 # Step - 1 . Downloading model
 
 - First click the buttons *windows+R*  and type *cmd* in box below clone my model from github on the black window
 
-       C:\>  git clone https://github.com/Mukhriddin19980901/cifar10.git
+       C:\>  git clone https://github.com/Mukhriddin19980901/MNIST.git
 
 - Write this command on black window.
  
-       C:\> cd cifar10
+       C:\> cd MNIST
  
 # Step - 2 .Creating virtual environment 
 
 - You need to upgrade your pip command to create environment
 
-       C:\cifar10>python.exe -m pip install --upgrade pip
+       C:\MNIST>python.exe -m pip install --upgrade pip
 
 
 - Here you need to install environment module and you can create  your virtual environment
 
-       C:\cifar10>python -m venv pip install --user virtualenv
+       C:\MNIST>python -m venv pip install --user virtualenv
  
  - Give the name to the environmentyou can give any name instead *environment_name*)
 
-       C:\cifar10>python -m venv environment_name
+       C:\MNIST>python -m venv environment_name
 
 - Then you need to activate the environment
 
-       C:\cifar10>environment_name\Scripts\activate.bat
+       C:\MNIST>environment_name\Scripts\activate.bat
 
 - Install all required libraries from the *requirements.txt* file
 
-      (environment_name) C:\cifar10> pip install -r requirements.txt
+      (environment_name) C:\MNIST> pip install -r requirements.txt
 
 - Now you can work on jupyter notebook
 
-     (environment_name) C:\cifar10>jupyter notebook
+     (environment_name) C:\MNIST>jupyter notebook
 
 
 # Step - 3 . Coding
+
+- You can see the classes of the data  :
+
+<img src="" width="700" height="500" />
  
-- Now you can see the code [here](https://github.com/Mukhriddin19980901/cifar10/blob/main/cifar10notebook.ipynb).The model was built on CNN.Here you can compare the flactuation of training accuracy and loss after every epoch.It took about 22 minutes and 30 seconds to train data in 20 epochs
+- Now you can see the code [here](https://github.com/Mukhriddin19980901/MNIST/blob/main/MNISTdata.ipynb).The model was built on CNN.
 
 
 <img src="https://github.com/Mukhriddin19980901/cifar10/blob/main/pictures/cifa10.png" width="700" height="500" />
